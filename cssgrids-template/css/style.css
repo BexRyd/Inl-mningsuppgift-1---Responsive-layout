@@ -21,42 +21,34 @@ body {
 
 #header{
 	grid-area:header;
-	border:1px solid black;
-	height:100px;
+
 }
 #box1{
 	grid-area:box1;
-	border:1px solid black;
-	height:100px;
+	
 }
 #box2{
 	grid-area:box2;
-	border:1px solid black;
-	height:100px;
+
 }
 #box3{
 	grid-area:box3;
-	border:1px solid black;
-	height:100px;
+	
 }
 
 #content{
 	grid-area: content;
-	border:1px solid black;
-	height:100px;
+
 }
 
 #sidebar{
 	grid-area:sidebar;
-	border:1px solid black;
-	height:100px;
+	
 }
 #footer{
 	grid-area:footer;
-	border:1px solid black;
-	height:100px;
-
 	
+
 	display: grid;
 
 	column-gap:2%;
@@ -69,6 +61,10 @@ body {
 
 #footer_section_1{
 	grid-area:footer_section_1;
+	
+}
+
+.border{
 	border:1px solid black;
 	height:100px;
 }
