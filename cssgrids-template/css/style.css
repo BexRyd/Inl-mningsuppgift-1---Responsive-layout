@@ -3,7 +3,7 @@ body {
 	background-size: 90%;
 }
 #container{
-	width:90%;
+	width:89%;
 	height: auto;
 	display: grid;
 	margin:20px auto;
@@ -14,7 +14,7 @@ body {
 	grid-template-areas:
     "header header header header header header header header header header header header"
 	"box1 box1 box2 box2 box2 box2 box2 box2 box2 box2 box3 box3"
-	"content content content content content content content content sidebar sidebar sidebar sidebar"
+	"content content content content content content content content content  sidebar sidebar sidebar"
 	"footer footer footer footer footer footer footer footer footer footer footer footer"
 	
 
@@ -78,4 +78,34 @@ body {
 .border{
 	border:1px solid black;
 	height:150px;
+}
+
+/*media quaries för mindre desktop*/
+
+@media screen and (max-width:1200px) and (min-width:960px)
+{
+    #container{
+    grid-template-areas:
+    "header header header header header header header header header header header header"
+	"box1 box1 box1 box2 box2 box2 box2 box2 box2 box3 box3 box3"
+	"content content content content content content content content sidebar sidebar sidebar sidebar"
+	"footer footer footer footer footer footer footer footer footer footer footer footer";
+
+
+	
+    }
+}
+/*media quaries för ipad*/
+@media screen and (max-width:960px) and (min-width:768px)
+{
+    #container{
+    grid-template-areas:
+    "header header header header header header header header header header header header"
+	"box1 box1 box1 box2 box2 box2 box2 box2 box2 box3 box3 box3"
+	"content content content content content content content content sidebar sidebar sidebar sidebar"
+	"footer footer footer footer footer footer footer footer footer footer footer footer";
+
+
+	
+    }
 }
