@@ -50,6 +50,7 @@ body {
 	grid-area:footer;
 	display: grid;
     padding:1%;
+	height: auto;
 	column-gap:2%;
 	row-gap: 5px;
 	grid-template-columns: repeat(12,1fr);
@@ -101,11 +102,22 @@ body {
     #container{
     grid-template-areas:
     "header header header header header header header header header header header header"
-	"box1 box1 box1 box2 box2 box2 box2 box2 box2 box3 box3 box3"
-	"content content content content content content content content sidebar sidebar sidebar sidebar"
+	"box1 box1 box1 box1 box2 box2 box2 box2 box3 box3 box3 box3"
+	"content content content content content content sidebar sidebar sidebar sidebar sidebar sidebar"
 	"footer footer footer footer footer footer footer footer footer footer footer footer";
-
-
-	
     }
+
+	#footer{
+		
+	
+		grid-template-areas:
+		"footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_2 footer_section_2 footer_section_2 footer_section_2 footer_section_2 footer_section_2"
+
+		" footer_section_3 footer_section_3  footer_section_3  footer_section_3  footer_section_3  footer_section_3  footer_section_4 footer_section_4 footer_section_4 footer_section_4 footer_section_4 footer_section_4";
+        
+	    height:auto;
+		padding:1%;
+		row-gap:15px;
+		
+	}
 }
