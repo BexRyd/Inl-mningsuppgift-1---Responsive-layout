@@ -55,5 +55,20 @@ body {
 	grid-area:footer;
 	border:1px solid black;
 	height:100px;
+
+	
+	display: grid;
+
+	column-gap:2%;
+	row-gap: 5px;
+	grid-template-columns: repeat(12,1fr);
+	grid-template-rows: auto;
+	grid-template-areas:
+	""
 }
 
+#footer_section_1{
+	grid-area:footer_section_1;
+	border:1px solid black;
+	height:100px;
+}
