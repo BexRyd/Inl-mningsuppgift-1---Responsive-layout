@@ -7,6 +7,7 @@ body {
 	height: auto;
 	display: grid;
 	margin:20px auto;
+	margin-bottom: 40px;
 	column-gap:2.08%;
 	row-gap:10px;
 	grid-template-columns: repeat(12,1fr);
@@ -81,7 +82,7 @@ body {
 	height:150px;
 }
 
-/*media quaries för mindre desktop*/
+/*media queries for small desktop*/
 
 @media screen and (max-width:1200px) and (min-width:960px)
 {
@@ -92,11 +93,15 @@ body {
 	"content content content content content content content content sidebar sidebar sidebar sidebar"
 	"footer footer footer footer footer footer footer footer footer footer footer footer";
 
-
-	
     }
+
+	#footer{
+		
+		column-gap:2.2%;
+		padding:0.7%;
+	}
 }
-/*media quaries för ipad*/
+/*media queries for tablet*/
 @media screen and (max-width:960px) and (min-width:768px)
 {
     #container{
@@ -105,6 +110,8 @@ body {
 	"box1 box1 box1 box1 box2 box2 box2 box2 box3 box3 box3 box3"
 	"content content content content content content sidebar sidebar sidebar sidebar sidebar sidebar"
 	"footer footer footer footer footer footer footer footer footer footer footer footer";
+
+	margin-bottom: 100px;
     }
 
 	#footer{
@@ -119,11 +126,12 @@ body {
 		padding:1%;
 		row-gap:15px;
 		
+		
 	}
 }
 
-
-@media screen and (max-width:768px)
+/*media queries for mobile*/
+@media screen and (max-width:767px)
 {
     #container{
     grid-template-areas:
@@ -135,12 +143,12 @@ body {
 	"sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar"
 	"footer footer footer footer footer footer footer footer footer footer footer footer";
 	row-gap: 20px;
+	margin-bottom: 50px;
+	width:91%;
 	
     }
 
 	#footer{
-		
-	
 		grid-template-areas:
 		"footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1"
 
