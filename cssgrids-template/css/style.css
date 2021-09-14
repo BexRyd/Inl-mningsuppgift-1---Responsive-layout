@@ -82,7 +82,7 @@ body {
 	height:150px;
 }
 
-/*media quaries för mindre desktop*/
+/*media queries for small desktop*/
 
 @media screen and (max-width:1200px) and (min-width:960px)
 {
@@ -101,7 +101,7 @@ body {
 		padding:0.7%;
 	}
 }
-/*media quaries för tablet*/
+/*media queries for tablet*/
 @media screen and (max-width:960px) and (min-width:768px)
 {
     #container{
@@ -130,8 +130,8 @@ body {
 	}
 }
 
-
-@media screen and (max-width:768px)
+/*media queries for mobile*/
+@media screen and (max-width:767px)
 {
     #container{
     grid-template-areas:
@@ -149,8 +149,6 @@ body {
     }
 
 	#footer{
-		
-	
 		grid-template-areas:
 		"footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1 footer_section_1"
 
