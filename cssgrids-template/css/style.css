@@ -20,7 +20,7 @@ body {
 	
 
 }
-
+/*added flex-box to header*/
 #header{
 	grid-area:header;
 	background-color: lightgray;
@@ -29,6 +29,7 @@ body {
 	align-items: center;
 	justify-content: flex-start;
 	column-gap: 2%;
+	row-gap:2% ;
 	
 
 }
