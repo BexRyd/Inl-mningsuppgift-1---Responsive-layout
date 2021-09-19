@@ -58,7 +58,10 @@ body {
 	flex-wrap:wrap;
 	flex-direction:row;
 	justify-content: space-evenly;
-	padding:1%;
+	padding:2%;
+	row-gap: 2%;
+	column-gap:2%;
+	
 
 	
 	
@@ -68,11 +71,13 @@ section{
 	border:1px solid black;
 	width: 265px;
 	height: 100px;
-	margin:0.5%;
+	margin-bottom:1%;
+	margin-top: 1%;
+	flex-grow:1;
+}
 
-	
-	
-	
+button{
+	margin:1%;
 }
 
 #sidebar{
@@ -85,6 +90,7 @@ section{
 	padding: 5%;
 	
 }
+
 #footer{
 	grid-area:footer;
 	display: grid;
