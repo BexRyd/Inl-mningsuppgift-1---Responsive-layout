@@ -29,10 +29,14 @@ body {
 	align-items: center;
 	justify-content: flex-start;
 	column-gap: 2%;
-	row-gap:2% ;
+	row-gap:2%;
+	padding-left:2%;
 	
-
 }
+
+
+
+
 #box1{
 	grid-area:box1;
 	
@@ -48,7 +52,27 @@ body {
 
 #content{
 	grid-area: content;
+	display: flex;
+	height: auto;
+	background-color: whitesmoke;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content: space-evenly;
+	padding:1%;
 
+	
+	
+
+}
+section{
+	border:1px solid black;
+	width: 265px;
+	height: 100px;
+	margin:0.5%;
+
+	
+	
+	
 }
 
 #sidebar{
